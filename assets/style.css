@@ -1,4 +1,34 @@
+body{
+    font-family: "Anton", sans-serif;
+}
 .images{
     width: 100px;
     height: 100px;
+    padding:10px;
+
+}
+.line{
+    display:flex;
+    align-items: center;
+  justify-content: center;
+}
+#score{
+    display: flex;
+    align-items: center;
+  justify-content: center;
+}
+.scoretext{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size:20px;
+}
+#usernametext{
+    display: flex;
+    align-items: center;
+  justify-content: center;
+}
+#submitarea{
+    display: flex;
+    align-items: center;
+  justify-content: center;
 }

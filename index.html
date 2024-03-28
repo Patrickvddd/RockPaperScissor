@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Madimi+One&display=swap" rel="stylesheet">
     <title>Rock Paper Scissor</title>
 </head>
 <body>
@@ -16,13 +19,33 @@
         the computer will randomly select theirs. 
         Rock beats Scissors, Scissors beats Paper and Paper beats Rock.
     </div>
-    <div id="rpr">
+    <div id="rpr" class="line">
         <img src="assets/images/fist.png" id="playerrock" class="images">
         <div class="images"></div>
         <img src="assets/images/fist.png" id="computerrock" class="images">
     </div>
-    <div id="pcp">
+    <div id="pcp" class="line">
         <img src="assets/images/paper.png" id="playerpaper" class="images">
+        <div class="images"></div>
+        <img src="assets/images/paper.png" id="computerpaper" class="images">
+    </div>
+    <div id="sws" class="line">
+        <img src="assets/images/scissors.png" id="playerscissors" class="images">
+        <div class="images"></div>
+        <img src="assets/images/scissors.png" id="computerscissors" class="images">
+    </div>
+    <div id="score">   
+        <p class="scoretext" id="playername">Player 1 </p>
+        <p class="scoretext" id="playerscore"> 0 </p>
+        <p class="scoretext"> - </p>
+        <p class="scoretext" id="computerscore"> 0 </p>
+        <p class="scoretext"> Computer</p>
+    </div>
+    
+    <p class="scoretext" id="usernametext">Enter a Username</p>
+    <div id="submitarea">
+    <input id="username" type="text">
+    <input id="submit" type="submit">
     </div>
 
     

@@ -1,17 +1,43 @@
 body{
     font-family: "Anton", sans-serif;
+    background-color: grey;
+}
+h1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:#40BFA4;
+}
+#howtooplay{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:#40BFA4;
+}
+
+#playerchoice{
+  visibility:hidden;
+}
+#computerchoice{
+  visibility:hidden;
+}
+#winner{
+  visibility:hidden;
 }
 .images{
     width: 75px;
     height: 75px;
     padding: 5px;
     padding-top: 20px;
-
+    background-color:#209CEE ;
+    border-radius:10px;
+    margin: 5px;
+  
 }
 .line{
     display:flex;
     align-items: center;
-  justify-content: center;
+    justify-content: center;
 }
 #score{
     display: flex;
@@ -22,14 +48,28 @@ body{
     padding-left: 5px;
     padding-right: 5px;
     font-size:20px;
+    color:#D3F6D3;
 }
 #usernametext{
     display: flex;
     align-items: center;
-  justify-content: center;
+    justify-content: center;
 }
 #submitarea{
     display: flex;
     align-items: center;
-  justify-content: center;
+    justify-content: center;
+}
+@media only screen and (min-width: 1400px){
+  .images{
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+    padding-top: 20px;
+    background-color:#209CEE ;
+    border-radius:10px;
+    margin: 5px;
+  
+}
+
 }

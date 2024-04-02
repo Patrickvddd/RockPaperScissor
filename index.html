@@ -15,25 +15,27 @@
     </Header>
     <div id="howtooplay">
          How too play:
-        Click on either the rock the paper or the scissor too choose your guess,
+        Click on either the rock the paper or the scissor on the left too choose your guess,
         the computer will randomly select theirs. 
         Rock beats Scissors, Scissors beats Paper and Paper beats Rock.
     </div>
+    <div id = "game">
     <div id="rpr" class="line">
-        <img src="assets/images/fist.png" id="playerrock" class="images">
-        <div class="images"></div>
+        <img src="assets/images/fist.png" id="playerrock" class="images" onclick="startGame('rock')">
+        <img class="images visable" id="playerchoice" ></img>
         <img src="assets/images/fist.png" id="computerrock" class="images">
     </div>
     <div id="pcp" class="line">
-        <img src="assets/images/paper.png" id="playerpaper" class="images">
-        <div class="images"></div>
+        <img src="assets/images/paper.png" id="playerpaper" class="images" onclick="startGame('paper')">
+        <img class="images visable" id="computerchoice"></img>
         <img src="assets/images/paper.png" id="computerpaper" class="images">
     </div>
     <div id="sws" class="line">
-        <img src="assets/images/scissors.png" id="playerscissors" class="images">
-        <div class="images"></div>
+        <img src="assets/images/scissors.png" id="playerscissors" class="images" onclick="startGame('scissors')">
+        <img class="images visable" id="winner"></img>
         <img src="assets/images/scissors.png" id="computerscissors" class="images">
     </div>
+</div>
     <div id="score">   
         <p class="scoretext" id="playername">Player 1 </p>
         <p class="scoretext" id="playerscore"> 0 </p>
@@ -45,7 +47,8 @@
     <p class="scoretext" id="usernametext">Enter a Username</p>
     <div id="submitarea">
     <input id="username" type="text">
-    <input id="submit" type="submit">
+    <button id="submit" type="button">Submit</button>
+    
     </div>
 
     

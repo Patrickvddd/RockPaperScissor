@@ -31,9 +31,10 @@ h1{
     padding-top: 20px;
     background-color:#209CEE ;
     border-radius:10px;
-    margin: 5px;
+    margin: 20px;
   
 }
+
 .line{
     display:flex;
     align-items: center;
@@ -62,13 +63,11 @@ h1{
 }
 @media only screen and (min-width: 1400px){
   .images{
-    width: 150px;
-    height: 150px;
     padding: 15px;
     padding-top: 20px;
     background-color:#209CEE ;
     border-radius:10px;
-    margin: 5px;
+    margin: 50px;
   
 }
 

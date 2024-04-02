@@ -8,6 +8,9 @@ let compSelection = document.getElementById('computerchoice');
 let started = false
 let playerScoreNum = 0
 let compScoreNum = 0
+let pRock = document.getElementById("playerrock")
+let pPaper = document.getElementById("playerpaper")
+let pScissors = document.getElementById("playerscissors")
 function startGame (playerChoice){
         if(started){
                 return
@@ -121,3 +124,28 @@ function onSubmit(){
 }
 let submitButton = document.getElementById('submit');
 submit.addEventListener('click', onSubmit);
+
+function mouseonr(){
+        pRock.style.width = "200px";
+        pRock.style.height = "200px";
+}
+function mouseonp(){
+        pPaper.style.width = "200px";
+        pPaper.style.height = "200px";
+}
+function mouseons(){
+        pScissors.style.width = "200px";
+        pScissors.style.height = "200px";
+}
+function mouseoffr(){
+        pRock.style.width = "75px";
+        pRock.style.height = "75px";
+}
+function mouseoffs(){
+        pScissors.style.width = "75px";
+        pScissors.style.height = "75px";
+}
+function mouseoffp(){
+        pPaper.style.width = "75px";
+        pPaper.style.height = "75px";
+}

@@ -11,6 +11,8 @@ let compScoreNum = 0
 let pRock = document.getElementById("playerrock")
 let pPaper = document.getElementById("playerpaper")
 let pScissors = document.getElementById("playerscissors")
+let user = document.getElementById("username");
+user.maxLength = 10;
 function startGame (playerChoice){
         if(started){
                 return
@@ -116,11 +118,12 @@ function draw(){
 
 function onSubmit(){
         
-        let user = document.getElementById("username");
+        
         let userName = user.value;
         document.getElementById("playername").innerHTML = playername;
         playername.textContent = userName;
         document.getElementById("username").value = "";
+
 }
 let submitButton = document.getElementById('submit');
 submit.addEventListener('click', onSubmit);

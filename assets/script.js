@@ -5,21 +5,21 @@ let playerScore = document.getElementById("playerscore");
 let computerScore = document.getElementById("computerscore");
 let winner = document.getElementById("winner");
 let compSelection = document.getElementById('computerchoice');
-let started = false
-let playerScoreNum = 0
-let compScoreNum = 0
-let pRock = document.getElementById("playerrock")
-let pPaper = document.getElementById("playerpaper")
-let pScissors = document.getElementById("playerscissors")
+let started = false;
+let playerScoreNum = 0;
+let compScoreNum = 0;
+let pRock = document.getElementById("playerrock");
+let pPaper = document.getElementById("playerpaper");
+let pScissors = document.getElementById("playerscissors");
 let user = document.getElementById("username");
 user.maxLength = 10;
 function startGame (playerChoice){
         if(started){
-                return
+                return;
         }
         winner.style.visibility = 'hidden';
         compSelection.style.visibility = 'hidden';
-        started = true 
+        started = true ;
         let playerSelection =document.getElementById("playerchoice");
         if (playerChoice == "rock") {
           playerSelection.src = "assets/images/fist.png";
@@ -34,7 +34,7 @@ function startGame (playerChoice){
 
         setTimeout(function(){    
         let computerChoice = choices[Math.floor(Math.random() * 3)];
-        console.log(computerChoice)
+        console.log(computerChoice);
 
         
         if (computerChoice == "rock") {
@@ -64,7 +64,7 @@ function startGame (playerChoice){
         }
         
         
-}, 1000)
+}, 1000);
 }
 
 
@@ -73,14 +73,13 @@ function win(){
         
         setTimeout(() =>{
 
-        console.log("winner")
         winner.style.visibility = 'visible';
         winner.src = "assets/images/win.png";
-        started = false
+        started = false;
         document.getElementById("playerscore").innerText = ++playerScoreNum;
         if (playerScoreNum === 10){
                 resetScore();
-                alert("YOU WIN")
+                alert("YOU WIN");
                 
         }},1000)
        
@@ -88,31 +87,29 @@ function win(){
 
 function lose(){
         setTimeout(() =>{
-        console.log("loser")
         winner.style.visibility = 'visible';
-       winner.src = "assets/images/lose.png"
-       started = false
+       winner.src = "assets/images/lose.png";
+       started = false;
         document.getElementById("computerscore").innerText = ++compScoreNum;
         if (compScoreNum === 10){
                 resetScore();
-                alert("YOU LOSE")
+                alert("YOU LOSE");
         }},1000)
         
 }
 function resetScore(){
-        document.getElementById("playerscore").innerText = "0"
-        document.getElementById("computerscore").innerText = "0"
-        playerScoreNum = 0
-        compScoreNum = 0
+        document.getElementById("playerscore").innerText = "0";
+        document.getElementById("computerscore").innerText = "0";
+        playerScoreNum = 0;
+        compScoreNum = 0;
         
 }
 function draw(){
         setTimeout(() =>{
         winner.style.visibility = 'visible';
-        console.log("draw")
-        winner.src = "assets/images/draw.png"
-        started = false
-},1000)
+        winner.src = "assets/images/draw.png";
+        started = false;
+},1000);
 
 }
 

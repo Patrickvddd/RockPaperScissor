@@ -43,9 +43,9 @@ At the bottom we see the score and a input section for the user too put their na
 This site was tested and works on Google Chrome, Opera(based on Firefox) and Microsoft Edge.
 All  buttons work on all sites and the game fuctions on all sites.
 
-![Alt text](assets/photos/htmltest.png)  ![Alt text](assets/photos/csstest.png)
+![Alt text](assets/images/htmltest.png)  ![Alt text](assets/images/csstest.png)
 
-![Alt text](assets/photos/lighthousetest.png)
+![Alt text](assets/images/lighthousetest.png) ![Alt text](assets/images/jstest.png)
 
 # Known Bugs
 

@@ -1,39 +1,90 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# JS RPS
 
-Welcome,
+JS RPS is a site that host a rock paper scissors game agaisnt the computer in javascript. this site is targeted at people who enjoy a good Rock paper scissors game in their free time.
+![Alt text](assets/images/rpsmobilepic.png) ![Alt text](assets/images/rpspcpic.png) 
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+# Wireframes
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+The wireframes for JS RPS were created in Balsamiq. it covers the Mobile version. The final site is quite similar too the wireframe, the only big change being that a username submit button was added.
 
-## Codeanywhere Reminders
+![Alt text](assets/images/wireframe.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
 
-`python3 -m http.server`
+# Design Choices
+`###` typography    
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+The Font used was Anton, a more bold font used too make the site look fuller.
+# Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+JS RPS has many cool features inculding rock paper scissor buttons that grow in size when hovered. a scorecard that goes up too 10. an input area for your Username that will take the place of 'player 1'
 
-`http_server`
+## Existing Features
+ 
+### Header
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The header shows of a clean title and how to play section that instructs users on how the game works.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+![Alt text](assets/images/rpsheaderanddescription.png)
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Game Section
 
-To log into the Heroku toolbelt CLI:
+The game Section is where players will make their choice of rock paper or scissors too beat the computer. After a choice is made the game will show you your choice the computers choice and the result.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Alt text](assets/images/rpsgamesection.png) ![Alt text](assets/images/rpsgamesection.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Score and Input Section
 
----
+At the bottom we see the score and a input section for the user too put their name. this name replaces the player 1 text.
 
-Happy coding!
+![Alt text](assets/images/rpsgamesection.png)
+
+# Testing
+
+This site was tested and works on Google Chrome, Opera(based on Firefox) and Microsoft Edge.
+All  buttons work on all sites and the game fuctions on all sites.
+
+![Alt text](assets/photos/htmltest.png)  ![Alt text](assets/photos/csstest.png)
+
+![Alt text](assets/photos/lighthousetest.png)
+
+# Known Bugs
+
+## Resloved
+
+During validation two bugs became known during the validation stage, a brief description is below:
+
+![Alt text](assets/photos/htmlbug.png) ![Alt text](assets/photos/iconbug.png)
+
+during deployment this came up, it was an ovesight from previewing through the terminal
+
+## Unresolved
+
+![Alt text](assets/photos/bugright.png)
+
+this bug has pained me all through the project and i have still yet too figure out why it exists, for some reason it doesnt line up.
+this is only viewable if you scroll diagonally and viewed from smaller device's its not there.
+
+# Deployment
+
+* My site was deployed on Github Pages, following these steps
+  * In the GitHub repository, navigate to the Settings tab.
+  * Once in Settings, navigate to the Pages tab on the left hand side.
+  * Under Source, select the branch to master, then click save.
+  * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+You can find the link [here](https://patrickvddd.github.io/HelsingborgGamingClub/)
+
+
+# Credits
+
+## Content
+  * The font came from [google fonts](https://fonts.google.com)
+  * The map is embedded from [google maps](https://www.google.com/maps)
+  * The icons came from [font awesome](https://fontawesome.com)
+  * The phots are from [pexels](https://pexels.com)
+  * [balsamiq](https://balsamiq.com) was used to create the wireframes.
+
+  
+  The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer  Diploma at the Code Institute. 
+
+Patrick van Daal 2024

@@ -69,12 +69,10 @@ You can find the link [here](https://patrickvddd.github.io/RockPaperScissor/)
 
 ## Content
   * The font came from [google fonts](https://fonts.google.com)
-  * The map is embedded from [google maps](https://www.google.com/maps)
   * The icons came from [font awesome](https://fontawesome.com)
-  * The phots are from [pexels](https://pexels.com)
   * [balsamiq](https://balsamiq.com) was used to create the wireframes.
 
   
-  The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer  Diploma at the Code Institute. 
+  The site was completed as a Portfolio 2 Project piece for the Full Stack Software Developer  Diploma at the Code Institute. 
 
 Patrick van Daal 2024

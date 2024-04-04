@@ -51,18 +51,8 @@ All  buttons work on all sites and the game fuctions on all sites.
 
 ## Resloved
 
-During validation two bugs became known during the validation stage, a brief description is below:
+the usnername wouldnt stay as i used a submit form instead of a button.
 
-![Alt text](assets/photos/htmlbug.png) ![Alt text](assets/photos/iconbug.png)
-
-during deployment this came up, it was an ovesight from previewing through the terminal
-
-## Unresolved
-
-![Alt text](assets/photos/bugright.png)
-
-this bug has pained me all through the project and i have still yet too figure out why it exists, for some reason it doesnt line up.
-this is only viewable if you scroll diagonally and viewed from smaller device's its not there.
 
 # Deployment
 
@@ -72,7 +62,7 @@ this is only viewable if you scroll diagonally and viewed from smaller device's 
   * Under Source, select the branch to master, then click save.
   * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-You can find the link [here](https://patrickvddd.github.io/HelsingborgGamingClub/)
+You can find the link [here](https://patrickvddd.github.io/RockPaperScissor/)
 
 
 # Credits
